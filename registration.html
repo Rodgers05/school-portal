@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Student Portal | Registration</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <!-- Navigation -->
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                STUDENT<span>PORTAL</span>
+            </div>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="courses.html">
+                        Courses
+                    </a>
+                </li>
+
+                <li>
+                    <a href="registration.html"
+                       class="active">
+                        Registration
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Page Header -->
+    <section class="page-header">
+
+        <p class="small-title">
+            STUDENT REGISTRATION
+        </p>
+
+        <h1>
+            Register As A Student
+        </h1>
+
+        <p>
+            Enter your details in the form below.
+        </p>
+
+    </section>
+
+
+    <!-- Registration Area -->
+    <main class="registration-container">
+
+
+        <div class="registration-intro">
+
+            <h2>
+                Student Registration Form
+            </h2>
+
+            <p>
+                Please provide accurate information in
+                all the required fields.
+            </p>
+
+        </div>
+
+
+        <form class="registration-form"
+              action="#"
+              method="post">
+
+
+            <!-- Personal Information -->
+            <fieldset>
+
+                <legend>
+                    Personal Information
+                </legend>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="firstName">
+                            First Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="firstName"
+                            name="firstName"
+                            placeholder="Enter first name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="lastName">
+                            Last Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="lastName"
+                            name="lastName"
+                            placeholder="Enter last name"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="example@email.com"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="phone">
+                            Phone Number
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="+256 700 000 000"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="gender">
+                            Gender
+                        </label>
+
+                        <select id="gender"
+                                name="gender"
+                                required>
+
+                            <option value="">
+                                Select gender
+                            </option>
+
+                            <option value="male">
+                                Male
+                            </option>
+
+                            <option value="female">
+                                Female
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="dob">
+                            Date of Birth
+                        </label>
+
+                        <input
+                            type="date"
+                            id="dob"
+                            name="dob"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+            </fieldset>
+
+
+            <!-- Academic Information -->
+            <fieldset>
+
+                <legend>
+                    Academic Information
+                </legend>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="studentNumber">
+                            Student Number
+                        </label>
+
+                        <input
+                            type="text"
+                            id="studentNumber"
+                            name="studentNumber"
+                            placeholder="Enter student number"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="programme">
+                            Programme
+                        </label>
+
+                        <select id="programme"
+                                name="programme"
+                                required>
+
+                            <option value="">
+                                Select programme
+                            </option>
+
+                            <option value="software">
+                                Software Engineering
+                            </option>
+
+                            <option value="it">
+                                Information Technology
+                            </option>
+
+                            <option value="computer-science">
+                                Computer Science
+                            </option>
+
+                            <option value="bis">
+                                Business Information Systems
+                            </option>
+
+                            <option value="cyber">
+                                Cyber Security
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="year">
+                            Year of Study
+                        </label>
+
+                        <select id="year"
+                                name="year"
+                                required>
+
+                            <option value="">
+                                Select year
+                            </option>
+
+                            <option value="1">
+                                Year One
+                            </option>
+
+                            <option value="2">
+                                Year Two
+                            </option>
+
+                            <option value="3">
+                                Year Three
+                            </option>
+
+                            <option value="4">
+                                Year Four
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="semester">
+                            Semester
+                        </label>
+
+                        <select id="semester"
+                                name="semester"
+                                required>
+
+                            <option value="">
+                                Select semester
+                            </option>
+
+                            <option value="1">
+                                Semester One
+                            </option>
+
+                            <option value="2">
+                                Semester Two
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="address">
+                        Address
+                    </label>
+
+                    <textarea
+                        id="address"
+                        name="address"
+                        rows="4"
+                        placeholder="Enter your current address"
+                    ></textarea>
+
+                </div>
+
+            </fieldset>
+
+
+            <!-- Declaration -->
+            <fieldset>
+
+                <legend>
+                    Declaration
+                </legend>
+
+                <div class="checkbox-group">
+
+                    <input
+                        type="checkbox"
+                        id="agreement"
+                        name="agreement"
+                        required
+                    >
+
+                    <label for="agreement">
+
+                        I confirm that the information
+                        provided above is correct and
+                        complete.
+
+                    </label>
+
+                </div>
+
+            </fieldset>
+
+
+            <!-- Buttons -->
+            <div class="form-buttons">
+
+                <button
+                    type="reset"
+                    class="btn reset-btn">
+
+                    Clear Form
+
+                </button>
+
+
+                <button
+                    type="submit"
+                    class="btn primary-btn">
+
+                    Submit Registration
+
+                </button>
+
+            </div>
+
+
+        </form>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+
+                <h2>
+                    STUDENT<span>PORTAL</span>
+                </h2>
+
+                <p>
+                    Supporting students throughout
+                    their academic journey.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Quick Links
+                </h3>
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="courses.html">
+                    Courses
+                </a>
+
+                <a href="registration.html">
+                    Registration
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Contact
+                </h3>
+
+                <p>
+                    Email: info@studentportal.com
+                </p>
+
+                <p>
+                    Phone: +256 700 000 000
+                </p>
+
+                <p>
+                    Uganda
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+
+            <p>
+                © 2026 Student Portal. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
